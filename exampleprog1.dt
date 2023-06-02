@@ -1,0 +1,45 @@
+
+    ```
+        In this file we can see the general features of 
+        the DIET language, with strings chars floats integers
+        booleans if else statements methods and loops
+
+    ```
+df test1(int number){
+    str name = "Samet";
+    int counter = 5632;
+    flt money = -237.654;
+    flt newMoney = 8.8;
+    boo condition= true;
+    chr mark = 'd';
+    while(condition==true){
+        counter = counter+1;
+        condition = false;
+    }
+
+    if(mark!='a' & condition==false){
+        money = newMoney;
+    }
+    elsif(mark<='z' | newMoney>=7){
+        money = 9/3;
+        newMoney = 8*5;
+    }
+    else{
+        money = 8+6;
+        newMoney = 88-14;
+    }
+
+    boo = (75<=98) & (66!=1);
+
+    int b = 0;
+
+    return b;
+}
+
+df test2(){
+    `` this will give an error
+    flt wrongRatio =02.3;
+    int wrongNumber= -02;
+    chr wrongMark='xd'
+}
+
